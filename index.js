@@ -29,7 +29,7 @@ app.use(
 app.use(express.json());
 app.use("/api", Router);
 
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
   res.send("Welcome To my Backend...!!!");
 });
 
