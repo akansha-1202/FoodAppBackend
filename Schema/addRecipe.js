@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
 const addRecipeSchema = new mongoose.Schema({
+    user_id : String,
     recipeTitle: String,
     recipeDescription: String,
     recipeCategory: String,
